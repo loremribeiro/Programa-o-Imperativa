@@ -52,10 +52,10 @@ function microondas(opcao,tempo){
     
   
   } else if (
-    (opcao !== 1) | (opcao !== 2) ||
-    opcao !== 3 ||
-    opcao !== 4 ||
-    opcao !== 5
+    (opcao !== 1) || (opcao !== 2) ||
+    (opcao !== 3) ||
+    (opcao !== 4) ||
+    (opcao !== 5)
   ) {
     
     console.log ("Prato inexistente!!!");
@@ -63,4 +63,4 @@ function microondas(opcao,tempo){
   
   }
   
-  microondas (2, 7);
+  microondas (2, 16);
